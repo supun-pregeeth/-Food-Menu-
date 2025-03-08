@@ -1,0 +1,288 @@
+/* Global fixes for body and html to prevent extra space */
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+  box-sizing: border-box; /* Include padding and borders in the element's total width and height */
+}
+
+/* Food Image Section */
+.food-image {
+  width: 100%;
+  height: 75vh;
+  object-fit: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-position: center;
+  background-size: cover;
+}
+
+/* Order Button Container (Keep it fixed) */
+.order-button-container {
+  position:relative;
+  top: -294px; /* Position from the top */
+  transform: translateX(350px); /* Center button horizontally */
+  
+}
+
+/* Order Now Button */
+.order-now-button {
+  background-color: #fb9911;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  padding: 15px 40px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.order-now-button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  background: linear-gradient(45deg, #f18c00, #ff5722);
+}
+
+/* Restaurant Title */
+.restaurant-title {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #f18d00d7;
+  font-size: 3rem;
+  text-align: center;
+  margin-top: 80px;
+  transform: translateX(-20%) translateY(-500px);
+  transition: transform 0.5s ease-in-out;
+}
+
+/* Order Section */
+.order-section {
+  color: #2a2a2a;
+  font-size: 2rem;
+  text-align: center;
+  margin: 30px 0;
+  transform: translateY(-175px);
+}
+
+.order-subheading {
+  color: #ff5722;
+  font-size: 2.5rem;
+  margin-top: 10px;
+}
+
+/* Middle Text */
+.Middle {
+  color: #fd9618f0;
+  transform: translateX(120px) translateY(-740px);
+  font-size: 1rem;
+  font-family: 'Rochester', cursive;
+}
+
+/* Adjust text for "Middle1" */
+.Middle1 {
+  color: rgb(227, 146, 79);
+  font-size: 0.8rem;
+  margin-top: 10px;
+  line-height: 1.4;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  transform: translateY(-15px);
+}
+
+/* Icon Container */
+.icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  margin: 80px auto;
+  max-width: 1500px;
+  flex-wrap: wrap;
+  transform: translateY(-275px);
+}
+
+.icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  max-width: 150px;
+  padding: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.icon:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.icon-img {
+  width: 150px;
+  height: 150px;
+  object-fit: contain;
+  margin-bottom: 10px;
+  transition: transform 0.3s ease;
+}
+
+.icon-img:hover {
+  transform: scale(1.1);
+}
+
+.icon-text {
+  font-size: 18px;
+  font-weight: 600;
+  color: #333;
+  margin-top: 5px;
+  transition: color 0.3s ease;
+}
+
+.icon:hover .icon-text {
+  color: #ff5722;
+}
+
+/* Adjust for 69-image positioning */
+.sixtyNine-img {
+  position: absolute;
+  top: 10px;
+  left: 15px;
+  width: 50px;
+  height: auto;
+  object-fit: contain;
+}
+
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .order-button-container {
+    bottom: 10px;
+  }
+
+  .restaurant-title {
+    font-size: 2.5rem;
+  }
+
+  .order-section {
+    font-size: 1.3rem;
+  }
+
+  .icon-container {
+    gap: 30px;
+  }
+
+  .icon-img {
+    width: 120px;
+    height: 120px;
+  }
+}
+
+@media (max-width: 768px) {
+  .order-button-container {
+    bottom: 20px;
+  }
+
+  .restaurant-title {
+    font-size: 2rem;
+  }
+
+  .order-section {
+    font-size: 1.2rem;
+  }
+
+  .icon-container {
+    flex-direction: column;
+    gap: 30px;
+    margin: 20px auto;
+  }
+
+  .icon {
+    max-width: 200px;
+    padding: 15px;
+  }
+}
+
+
+  
+  .popup-content h2 {
+  color: #ff5722;
+  margin-bottom: 15px;
+  }
+  
+  .popup-content input {
+  width: 90%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  }
+  
+  .auth-button {
+  width: 100%;
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  }
+  
+  .auth-button:hover {
+  background: #0056b3;
+  }
+  
+  .toggle-auth {
+  color: #007bff;
+  cursor: pointer;
+  margin-top: 10px;
+  }
+  
+  .toggle-auth:hover {
+  text-decoration: underline;
+  }
+  
+  .close-popup {
+  background: #d9534f;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  }
+  
+  .close-popup:hover {
+  background: #c9302c;
+  }
+
+  .popup-overlay {
+    position: fixed; /* Make sure it's fixed on the screen */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; /* Ensure the overlay is on top */
+  }
+  
+  .popup-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    z-index: 1001; /* Make sure the content is above the overlay */
+    width: 400px;
+    position: relative;
+  }
+  

@@ -1,0 +1,223 @@
+/* General Styling */
+.menu-container {
+  max-width: 1150px;
+  margin: 0 auto;
+  padding: 100px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  width: 100%;
+  text-align: center;
+}
+
+@media (max-width: 1200px) {
+  .menu-container {
+    width: 90%;
+  }
+}
+
+@media (max-width: 900px) {
+  .menu-container {
+    width: 100%;
+  }
+}
+
+/* Menu Title */
+.menu-title {
+  font-size: 4rem;
+  font-family: 'Lora', serif;
+  color: #f3964ae8;
+  margin-bottom: 50px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+@media (max-width: 900px) {
+  .menu-title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+}
+
+/* Menu Category */
+.menu-category {
+  font-size: 2.2rem;
+  margin-bottom: 25px;
+  color: #272625;
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+@media (max-width: 900px) {
+  .menu-category {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+}
+
+/* Menu Items Grid */
+.menu-items-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 0 20px;
+}
+
+/* Menu Item Card */
+.menu-item-card {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+  text-align: center;
+  height: 420px;
+  cursor: pointer;
+}
+
+.menu-item-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+/* Menu Item Image */
+.menu-item-image {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Menu Item Content */
+.menu-item-content {
+  padding: 15px 20px;
+}
+
+.menu-item-name {
+  font-size: 1.2rem;
+  color: #333;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.menu-item-description {
+  font-size: 1rem;
+  color: #777;
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
+
+.menu-item-price {
+  font-size: 1.6rem;
+  color: #e67e22;
+  font-weight: 700;
+}
+
+.order-btn {
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.order-btn:hover {
+  background-color: #218838;
+}
+
+/* Modal Styles */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 400px;
+  text-align: center;
+}
+
+/* Verification Modal */
+.verification-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.verification-modal-content {
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  max-width: 500px;
+  text-align: center;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Popup Styling */
+.popup {
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+  border-radius: 10px;
+  max-width: 500px;
+  text-align: center;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.popup h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.popup-image {
+  width: 90%;
+  height: 300px;
+  object-fit: cover;
+  margin-bottom: 10px;
+  border-radius: 8px;
+}
+
+.popup select {
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.popup button {
+  padding: 11px 20px;
+  background-color: #28a745;
+  color: rgb(255, 255, 255);
+  border: none;
+  cursor: pointer;
+  font-size: 1.1rem;
+  border-radius: 7px;
+  margin-top: 10px;
+  transition: background-color 0.3s;
+}
+
+.popup button:hover {
+  background-color: #218838;
+}

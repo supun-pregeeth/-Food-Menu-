@@ -1,0 +1,113 @@
+/* General styles for the Contact page */
+.contact-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fdf7e3;
+    border-radius: 15px;
+    color: #000000;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-heading {
+    font-size: 28px;
+    margin-bottom: 10px;
+    color: #ff4a4a;
+}
+
+.contact-description {
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+/* Contact details section */
+.contact-details {
+    background: #fff;
+    color: #333;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: left;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.contact-details p {
+    margin: 10px 0;
+    font-size: 14px;
+}
+
+.contact-details a {
+    color: #f58529;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact-details a:hover {
+    text-decoration: underline;
+}
+
+/* Contact form styles */
+.contact-form {
+    background: #fff;
+    color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+textarea {
+    resize: none;
+    height: 80px;
+}
+
+.submit-button {
+    width: 100%;
+    padding: 12px;
+    background: #f5a623;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.submit-button:hover {
+    background: #f58529;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .contact-container {
+        padding: 15px;
+    }
+
+    .submit-button {
+        font-size: 14px;
+        padding: 10px;
+    }
+}

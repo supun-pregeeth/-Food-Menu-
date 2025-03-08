@@ -1,0 +1,22 @@
+C:\Users\ASUS\source\repos\new project\new project\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\ASUS\source\repos\new project\new project\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\ASUS\source\repos\new project\new project\obj\Debug\net8.0-windows\new project_MarkupCompile.cache
+C:\Users\ASUS\source\repos\new project\new project\obj\Debug\net8.0-windows\new project_MarkupCompile.lref
+C:\Users\ASUS\source\repos\new project\new project\bin\Debug\net8.0-windows\new project.exe
+C:\Users\ASUS\source\repos\new project\new project\bin\Debug\net8.0-windows\new project.deps.json
+C:\Users\ASUS\source\repos\new project\new project\bin\Debug\net8.0-windows\new project.runtimeconfig.json
+C:\Users\ASUS\source\repos\new project\new project\bin\Debug\net8.0-windows\new project.dll
+C:\Users\ASUS\source\repos\new project\new project\bin\Debug\net8.0-windows\new project.pdb
+C:\Users\ASUS\source\repos\new project\new project\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\ASUS\source\repos\new project\new project\obj\Debug\net8.0-windows\new project.g.resources
+C:\Users\ASUS\source\repos\new project\new project\obj\Debug\net8.0-windows\new project.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\source\repos\new project\new project\obj\Debug\net8.0-windows\new project.AssemblyInfoInputs.cache
+C:\Users\ASUS\source\repos\new project\new project\obj\Debug\net8.0-windows\new project.AssemblyInfo.cs
+C:\Users\ASUS\source\repos\new project\new project\obj\Debug\net8.0-windows\new project.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\source\repos\new project\new project\obj\Debug\net8.0-windows\new project.dll
+C:\Users\ASUS\source\repos\new project\new project\obj\Debug\net8.0-windows\refint\new project.dll
+C:\Users\ASUS\source\repos\new project\new project\obj\Debug\net8.0-windows\new project.pdb
+C:\Users\ASUS\source\repos\new project\new project\obj\Debug\net8.0-windows\new project.genruntimeconfig.cache
+C:\Users\ASUS\source\repos\new project\new project\obj\Debug\net8.0-windows\ref\new project.dll
+C:\Users\ASUS\source\repos\new project\new project\obj\Debug\net8.0-windows\Window1.g.cs
+C:\Users\ASUS\source\repos\new project\new project\obj\Debug\net8.0-windows\Window1.baml
